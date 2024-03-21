@@ -184,8 +184,9 @@
                     </div>
                     <div class="col-lg-8">
                         <div class="contact-page-form contact-form form-style-one wow fadeInUp delay-0-2s">
-                            <form id="contactForm" class="contactForm" name="contactForm" action="assets/php/form-process.php" method="post">
+                            <form id="contactForm" class="contactForm" name="contactForm" action="assets/php/form-process.php" method="POST">
                                 <div class="row">
+                                    <input type="hidden" name="access_key" value="d9138375-2d28-4bff-a6b8-6f12bf47e27a">
                                     <div class="col-md-6">
                                         <div class="form-group">
                                             <label for="name">Full Name</label>
@@ -228,7 +229,7 @@
                                     <div class="col-md-12">
                                         <div class="form-group mb-0">
                                             <button type="submit" class="theme-btn">Send Us Message <i class="far fa-angle-right"></i></button>
-                                            <div id="msgSubmit" class="hidden"></div>
+                                            <!-- <div id="msgSubmit" class="hidden"></div> -->
                                         </div>
                                     </div>
                                 </div>
